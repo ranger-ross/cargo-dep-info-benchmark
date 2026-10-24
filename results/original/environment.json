@@ -1,0 +1,21 @@
+{
+  "checkout_head": "cf29d0e0b1f7b03c4ceda5211cc4dc493bfc542e",
+  "rustc": "1.99.0 (b940084d7 2026-09-28)",
+  "cargo": "1.99.0 (5f94df478 2026-08-27)",
+  "target": "x86_64-unknown-linux-gnu",
+  "cpu": "Intel Core Ultra 9 285H",
+  "affinity": "CPU 0",
+  "profile": {"opt_level": 3, "debug": false},
+  "criterion": {"version": "0.8.2", "samples": 50, "warmup_seconds": 0.5, "measurement_seconds": 2, "baseline": "run1"},
+  "interleaved": {"rounds": 30, "target_batch_seconds": 0.02, "order": "seeded Fisher-Yates shuffle each round"},
+  "corpus_command": "cargo check --lib --locked --target-dir /tmp/cargo-16693-corpus",
+  "criterion_command": "taskset -c 0 target/release/cargo-16693-bench --bench --save-baseline run1",
+  "interleaved_command": "taskset -c 0 target/release/cargo-16693-bench --interleaved",
+  "limitations": [
+    "In-memory parse and binary serialization, not end-to-end compilation",
+    "Primary cases keep all paths and env entries, unlike registry filtering in Cargo",
+    "Warm path cases add canonicalization but exclude disk reads and writes",
+    "Real corpus has no checksum comments; checksum handling is verified separately",
+    "CPU frequency and unrelated system activity are not controlled"
+  ]
+}

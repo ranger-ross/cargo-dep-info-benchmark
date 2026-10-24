@@ -1,0 +1,422 @@
+[
+  {
+    "benchmark": "cargo_stages/parse_btree",
+    "mean_ns": 217545.79862664736,
+    "mean_ci95_low_ns": 209789.4727639481,
+    "mean_ci95_high_ns": 223620.36276461423,
+    "median_ns": 225082.82653061225
+  },
+  {
+    "benchmark": "cargo_stages/parse_hash_fx",
+    "mean_ns": 49992.916252032344,
+    "mean_ci95_low_ns": 49893.92764925458,
+    "mean_ci95_high_ns": 50092.86392570571,
+    "median_ns": 49979.84572230014
+  },
+  {
+    "benchmark": "cargo_stages/parse_hash_fx_sort_write",
+    "mean_ns": 51871.959495779396,
+    "mean_ci95_low_ns": 51374.84918125945,
+    "mean_ci95_high_ns": 52468.01881258144,
+    "median_ns": 51014.67491148702
+  },
+  {
+    "benchmark": "cargo_stages/parse_hash_std",
+    "mean_ns": 63765.148603116664,
+    "mean_ci95_low_ns": 60667.687524811656,
+    "mean_ci95_high_ns": 66409.9601093421,
+    "median_ns": 67948.85
+  },
+  {
+    "benchmark": "cargo_stages/parse_hash_std_sort_write",
+    "mean_ns": 69803.14020596936,
+    "mean_ci95_low_ns": 69712.3742417703,
+    "mean_ci95_high_ns": 69891.33623543591,
+    "median_ns": 69822.26201372998
+  },
+  {
+    "benchmark": "cargo_stages/parse_index_fx_sort_load",
+    "mean_ns": 126240.01363924937,
+    "mean_ci95_low_ns": 125816.60938506613,
+    "mean_ci95_high_ns": 126807.97404903619,
+    "median_ns": 125866.63133796028
+  },
+  {
+    "benchmark": "cargo_stages/parse_index_std_sort_load",
+    "mean_ns": 131625.8165254943,
+    "mean_ci95_low_ns": 131494.16462073565,
+    "mean_ci95_high_ns": 131760.3315424621,
+    "median_ns": 131669.87915426586
+  },
+  {
+    "benchmark": "cargo_stages/read_encoded_btree",
+    "mean_ns": 288816.18679127394,
+    "mean_ci95_low_ns": 288308.2324858902,
+    "mean_ci95_high_ns": 289339.3109596622,
+    "median_ns": 288194.70227272727
+  },
+  {
+    "benchmark": "cargo_stages/read_encoded_hash_fx",
+    "mean_ns": 49881.99435958621,
+    "mean_ci95_low_ns": 47377.282194654115,
+    "mean_ci95_high_ns": 52087.82785868631,
+    "median_ns": 53661.25131332083
+  },
+  {
+    "benchmark": "cargo_stages/read_encoded_hash_fx_sort_write",
+    "mean_ns": 60050.691032129274,
+    "mean_ci95_low_ns": 59966.54144696131,
+    "mean_ci95_high_ns": 60147.275928759234,
+    "median_ns": 59978.33789473684
+  },
+  {
+    "benchmark": "cargo_stages/read_encoded_hash_std",
+    "mean_ns": 64748.53018790521,
+    "mean_ci95_low_ns": 64328.12356742038,
+    "mean_ci95_high_ns": 65193.212706099905,
+    "median_ns": 63762.88955794504
+  },
+  {
+    "benchmark": "cargo_stages/read_encoded_hash_std_sort_write",
+    "mean_ns": 64944.44128094583,
+    "mean_ci95_low_ns": 64627.799017543795,
+    "mean_ci95_high_ns": 65325.04673393143,
+    "median_ns": 64509.992304964544
+  },
+  {
+    "benchmark": "cargo_stages/read_encoded_index_fx_sort_load",
+    "mean_ns": 59976.88454781921,
+    "mean_ci95_low_ns": 59914.68851607078,
+    "mean_ci95_high_ns": 60039.15604279105,
+    "median_ns": 59969.79834656084
+  },
+  {
+    "benchmark": "cargo_stages/read_encoded_index_std_sort_load",
+    "mean_ns": 65468.99976257431,
+    "mean_ci95_low_ns": 65330.8205650525,
+    "mean_ci95_high_ns": 65676.73848379953,
+    "median_ns": 65315.784888888884
+  },
+  {
+    "benchmark": "cargo_stages/warm_canonicalize_encode_btree",
+    "mean_ns": 1018929.0131454351,
+    "mean_ci95_low_ns": 1017012.3571908841,
+    "mean_ci95_high_ns": 1020854.6524970297,
+    "median_ns": 1019580.6143507031
+  },
+  {
+    "benchmark": "cargo_stages/warm_canonicalize_encode_hash_fx",
+    "mean_ns": 836727.4814993918,
+    "mean_ci95_low_ns": 835058.6067113914,
+    "mean_ci95_high_ns": 838512.9543768372,
+    "median_ns": 835786.8789893617
+  },
+  {
+    "benchmark": "cargo_stages/warm_canonicalize_encode_hash_fx_sort_write",
+    "mean_ns": 904904.6402398907,
+    "mean_ci95_low_ns": 856987.151232218,
+    "mean_ci95_high_ns": 946162.3413436585,
+    "median_ns": 971196.7116477273
+  },
+  {
+    "benchmark": "cargo_stages/warm_canonicalize_encode_index_fx_sort_load",
+    "mean_ns": 915950.9007688967,
+    "mean_ci95_low_ns": 906902.1815086483,
+    "mean_ci95_high_ns": 922658.9670013739,
+    "median_ns": 922956.514423077
+  },
+  {
+    "benchmark": "corpus_316/btree",
+    "mean_ns": 4136734.8466666676,
+    "mean_ci95_low_ns": 3908206.636777778,
+    "mean_ci95_high_ns": 4335053.513555557,
+    "median_ns": 4518205.611111111
+  },
+  {
+    "benchmark": "corpus_316/hash_fx",
+    "mean_ns": 2496786.101022163,
+    "mean_ci95_low_ns": 2492986.947635999,
+    "mean_ci95_high_ns": 2501597.125995721,
+    "median_ns": 2496204.208786232
+  },
+  {
+    "benchmark": "corpus_316/hash_fx_sort_write",
+    "mean_ns": 4812056.202222222,
+    "mean_ci95_low_ns": 4808029.342888889,
+    "mean_ci95_high_ns": 4816256.2755,
+    "median_ns": 4811683.777777778
+  },
+  {
+    "benchmark": "corpus_316/hash_std",
+    "mean_ns": 3011013.676961149,
+    "mean_ci95_low_ns": 3006919.4692609813,
+    "mean_ci95_high_ns": 3015183.9252287545,
+    "median_ns": 3013181.5871794876
+  },
+  {
+    "benchmark": "corpus_316/hash_std_sort_write",
+    "mean_ns": 5322938.925,
+    "mean_ci95_low_ns": 5318298.1983125005,
+    "mean_ci95_high_ns": 5327786.9928125,
+    "median_ns": 5323019.625
+  },
+  {
+    "benchmark": "corpus_316/index_fx_sort_load",
+    "mean_ns": 3995327.9180000005,
+    "mean_ci95_low_ns": 3991712.9556500013,
+    "mean_ci95_high_ns": 3999244.5349500007,
+    "median_ns": 3991695.55
+  },
+  {
+    "benchmark": "corpus_316/index_std_sort_load",
+    "mean_ns": 4202941.558000001,
+    "mean_ci95_low_ns": 4126365.4072499988,
+    "mean_ci95_high_ns": 4262599.845300001,
+    "median_ns": 4263690.550000001
+  },
+  {
+    "benchmark": "parse_encode/cargo/223_btree",
+    "mean_ns": 232523.71350917424,
+    "mean_ci95_low_ns": 232357.2682888767,
+    "mean_ci95_high_ns": 232710.48764467658,
+    "median_ns": 232487.3134920635
+  },
+  {
+    "benchmark": "parse_encode/cargo/223_hash_fx",
+    "mean_ns": 57962.87374069053,
+    "mean_ci95_low_ns": 57845.222416237884,
+    "mean_ci95_high_ns": 58083.747242197365,
+    "median_ns": 57896.045203588685
+  },
+  {
+    "benchmark": "parse_encode/cargo/223_hash_fx_sort_write",
+    "mean_ns": 183685.42933849135,
+    "mean_ci95_low_ns": 183351.5919683399,
+    "mean_ci95_high_ns": 184104.33823540926,
+    "median_ns": 183378.5648526077
+  },
+  {
+    "benchmark": "parse_encode/cargo/223_hash_std",
+    "mean_ns": 77980.05116003766,
+    "mean_ci95_low_ns": 77861.24202241118,
+    "mean_ci95_high_ns": 78099.36501765573,
+    "median_ns": 77922.69693800944
+  },
+  {
+    "benchmark": "parse_encode/cargo/223_hash_std_sort_write",
+    "mean_ns": 206520.3748740701,
+    "mean_ci95_low_ns": 191296.65768420685,
+    "mean_ci95_high_ns": 220369.6715591548,
+    "median_ns": 233480.9129818594
+  },
+  {
+    "benchmark": "parse_encode/cargo/223_index_fx_sort_load",
+    "mean_ns": 129938.19515123138,
+    "mean_ci95_low_ns": 129675.02299616393,
+    "mean_ci95_high_ns": 130324.4323249011,
+    "median_ns": 129772.76270933014
+  },
+  {
+    "benchmark": "parse_encode/cargo/223_index_std_sort_load",
+    "mean_ns": 142657.90920681338,
+    "mean_ci95_low_ns": 141027.90395228233,
+    "mean_ci95_high_ns": 143903.28918161907,
+    "median_ns": 143219.60021983707
+  },
+  {
+    "benchmark": "parse_encode/cargo_credential/5_btree",
+    "mean_ns": 1575.7067740587777,
+    "mean_ci95_low_ns": 1574.1038271251043,
+    "mean_ci95_high_ns": 1577.4754937381322,
+    "median_ns": 1574.4207236937643
+  },
+  {
+    "benchmark": "parse_encode/cargo_credential/5_hash_fx",
+    "mean_ns": 1410.7226720924516,
+    "mean_ci95_low_ns": 1409.386270884878,
+    "mean_ci95_high_ns": 1412.0981346592173,
+    "median_ns": 1410.6929824897384
+  },
+  {
+    "benchmark": "parse_encode/cargo_credential/5_hash_fx_sort_write",
+    "mean_ns": 1760.8774872477,
+    "mean_ci95_low_ns": 1757.5569042601003,
+    "mean_ci95_high_ns": 1764.1882720825536,
+    "median_ns": 1761.0936934879028
+  },
+  {
+    "benchmark": "parse_encode/cargo_credential/5_hash_std",
+    "mean_ns": 1774.6083798613417,
+    "mean_ci95_low_ns": 1769.6637882677198,
+    "mean_ci95_high_ns": 1777.7981236349622,
+    "median_ns": 1776.9772727272727
+  },
+  {
+    "benchmark": "parse_encode/cargo_credential/5_hash_std_sort_write",
+    "mean_ns": 2108.6248142310305,
+    "mean_ci95_low_ns": 2056.06543456824,
+    "mean_ci95_high_ns": 2143.4563530147802,
+    "median_ns": 2149.668531012564
+  },
+  {
+    "benchmark": "parse_encode/cargo_credential/5_index_fx_sort_load",
+    "mean_ns": 1965.0397571675828,
+    "mean_ci95_low_ns": 1963.1106231118404,
+    "mean_ci95_high_ns": 1967.0913310370395,
+    "median_ns": 1964.429656862745
+  },
+  {
+    "benchmark": "parse_encode/cargo_credential/5_index_std_sort_load",
+    "mean_ns": 2082.2194874303777,
+    "mean_ci95_low_ns": 2081.4615953302005,
+    "mean_ci95_high_ns": 2082.980036767352,
+    "median_ns": 2082.2369227994227
+  },
+  {
+    "benchmark": "parse_encode/gix/179_btree",
+    "mean_ns": 252902.29187592288,
+    "mean_ci95_low_ns": 252577.64222215966,
+    "mean_ci95_high_ns": 253221.83001957205,
+    "median_ns": 253046.68823529413
+  },
+  {
+    "benchmark": "parse_encode/gix/179_hash_fx",
+    "mean_ns": 96045.40361375552,
+    "mean_ci95_low_ns": 95977.62803679313,
+    "mean_ci95_high_ns": 96112.92604116126,
+    "median_ns": 95998.99217993079
+  },
+  {
+    "benchmark": "parse_encode/gix/179_hash_fx_sort_write",
+    "mean_ns": 228000.0988820846,
+    "mean_ci95_low_ns": 219996.25962603328,
+    "mean_ci95_high_ns": 234779.88679489528,
+    "median_ns": 239251.17335069444
+  },
+  {
+    "benchmark": "parse_encode/gix/179_hash_std",
+    "mean_ns": 122355.37504865843,
+    "mean_ci95_low_ns": 122121.41402618331,
+    "mean_ci95_high_ns": 122606.15530371858,
+    "median_ns": 122281.96657846658
+  },
+  {
+    "benchmark": "parse_encode/gix/179_hash_std_sort_write",
+    "mean_ns": 279747.1106738244,
+    "mean_ci95_low_ns": 279361.0006666098,
+    "mean_ci95_high_ns": 280109.3229958204,
+    "median_ns": 280071.11814086814
+  },
+  {
+    "benchmark": "parse_encode/gix/179_index_fx_sort_load",
+    "mean_ns": 201934.90988257804,
+    "mean_ci95_low_ns": 195461.02953653203,
+    "mean_ci95_high_ns": 207405.13772630662,
+    "median_ns": 211536.83449074073
+  },
+  {
+    "benchmark": "parse_encode/gix/179_index_std_sort_load",
+    "mean_ns": 210358.08912992047,
+    "mean_ci95_low_ns": 200836.5339373784,
+    "mean_ci95_high_ns": 218207.21523117105,
+    "median_ns": 222055.24123597756
+  },
+  {
+    "benchmark": "parse_encode/http/20_btree",
+    "mean_ns": 14600.471450880525,
+    "mean_ci95_low_ns": 14582.10422471525,
+    "mean_ci95_high_ns": 14618.3013429787,
+    "median_ns": 14612.97762345679
+  },
+  {
+    "benchmark": "parse_encode/http/20_hash_fx",
+    "mean_ns": 9270.056161632037,
+    "mean_ci95_low_ns": 9259.75388516846,
+    "mean_ci95_high_ns": 9281.984826729278,
+    "median_ns": 9261.441262828535
+  },
+  {
+    "benchmark": "parse_encode/http/20_hash_fx_sort_write",
+    "mean_ns": 16470.07088540143,
+    "mean_ci95_low_ns": 16411.543500587555,
+    "mean_ci95_high_ns": 16511.937629154643,
+    "median_ns": 16499.628819388898
+  },
+  {
+    "benchmark": "parse_encode/http/20_hash_std",
+    "mean_ns": 11827.676341975573,
+    "mean_ci95_low_ns": 11822.202203103747,
+    "mean_ci95_high_ns": 11833.359943261868,
+    "median_ns": 11824.159740784185
+  },
+  {
+    "benchmark": "parse_encode/http/20_hash_std_sort_write",
+    "mean_ns": 22581.875394147926,
+    "mean_ci95_low_ns": 22565.465430860368,
+    "mean_ci95_high_ns": 22599.05504747258,
+    "median_ns": 22579.739015606243
+  },
+  {
+    "benchmark": "parse_encode/http/20_index_fx_sort_load",
+    "mean_ns": 13923.948153963811,
+    "mean_ci95_low_ns": 13909.324011655193,
+    "mean_ci95_high_ns": 13939.782146214058,
+    "median_ns": 13911.412276785715
+  },
+  {
+    "benchmark": "parse_encode/http/20_index_std_sort_load",
+    "mean_ns": 14929.521827263257,
+    "mean_ci95_low_ns": 14919.02213861283,
+    "mean_ci95_high_ns": 14939.64466931797,
+    "median_ns": 14929.792658730159
+  },
+  {
+    "benchmark": "parse_encode/syn/54_btree",
+    "mean_ns": 53071.00328229332,
+    "mean_ci95_low_ns": 51502.267889175884,
+    "mean_ci95_high_ns": 54290.75638821289,
+    "median_ns": 54417.09727474972
+  },
+  {
+    "benchmark": "parse_encode/syn/54_hash_fx",
+    "mean_ns": 24988.24718709548,
+    "mean_ci95_low_ns": 24892.698455590755,
+    "mean_ci95_high_ns": 25100.881795156554,
+    "median_ns": 24951.830198906486
+  },
+  {
+    "benchmark": "parse_encode/syn/54_hash_fx_sort_write",
+    "mean_ns": 50266.17335215621,
+    "mean_ci95_low_ns": 47110.74060472761,
+    "mean_ci95_high_ns": 53037.81095473957,
+    "median_ns": 55255.34505005562
+  },
+  {
+    "benchmark": "parse_encode/syn/54_hash_std",
+    "mean_ns": 30418.919207474206,
+    "mean_ci95_low_ns": 30364.32588594818,
+    "mean_ci95_high_ns": 30476.1540442445,
+    "median_ns": 30382.63037904125
+  },
+  {
+    "benchmark": "parse_encode/syn/54_hash_std_sort_write",
+    "mean_ns": 61495.51845027062,
+    "mean_ci95_low_ns": 57966.34801600754,
+    "mean_ci95_high_ns": 64567.72672464127,
+    "median_ns": 66760.49479166666
+  },
+  {
+    "benchmark": "parse_encode/syn/54_index_fx_sort_load",
+    "mean_ns": 46559.06993605771,
+    "mean_ci95_low_ns": 46494.632276686374,
+    "mean_ci95_high_ns": 46628.46808529018,
+    "median_ns": 46535.6348583878
+  },
+  {
+    "benchmark": "parse_encode/syn/54_index_std_sort_load",
+    "mean_ns": 50287.10574349807,
+    "mean_ci95_low_ns": 50236.804709329095,
+    "mean_ci95_high_ns": 50336.84260237822,
+    "median_ns": 50300.52817234849
+  }
+]

@@ -1,0 +1,11 @@
+/tmp/cargo-16693-corpus/debug/deps/gix_pathspec-ae427cc69374ecb6.d: /home/ross/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gix-pathspec-0.20.0/src/lib.rs /home/ross/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gix-pathspec-0.20.0/src/pattern.rs /home/ross/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gix-pathspec-0.20.0/src/search/mod.rs /home/ross/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gix-pathspec-0.20.0/src/search/init.rs /home/ross/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gix-pathspec-0.20.0/src/search/matching.rs /home/ross/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gix-pathspec-0.20.0/src/parse.rs /home/ross/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gix-pathspec-0.20.0/src/defaults.rs
+
+/tmp/cargo-16693-corpus/debug/deps/libgix_pathspec-ae427cc69374ecb6.rmeta: /home/ross/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gix-pathspec-0.20.0/src/lib.rs /home/ross/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gix-pathspec-0.20.0/src/pattern.rs /home/ross/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gix-pathspec-0.20.0/src/search/mod.rs /home/ross/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gix-pathspec-0.20.0/src/search/init.rs /home/ross/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gix-pathspec-0.20.0/src/search/matching.rs /home/ross/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gix-pathspec-0.20.0/src/parse.rs /home/ross/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gix-pathspec-0.20.0/src/defaults.rs
+
+/home/ross/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gix-pathspec-0.20.0/src/lib.rs:
+/home/ross/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gix-pathspec-0.20.0/src/pattern.rs:
+/home/ross/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gix-pathspec-0.20.0/src/search/mod.rs:
+/home/ross/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gix-pathspec-0.20.0/src/search/init.rs:
+/home/ross/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gix-pathspec-0.20.0/src/search/matching.rs:
+/home/ross/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gix-pathspec-0.20.0/src/parse.rs:
+/home/ross/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gix-pathspec-0.20.0/src/defaults.rs:

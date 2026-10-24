@@ -1,0 +1,11 @@
+/tmp/cargo-16693-corpus/debug/deps/gix_worktree-0144fbdfcd035eb3.d: /home/ross/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gix-worktree-0.56.0/src/lib.rs /home/ross/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gix-worktree-0.56.0/src/stack/mod.rs /home/ross/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gix-worktree-0.56.0/src/stack/delegate.rs /home/ross/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gix-worktree-0.56.0/src/stack/platform.rs /home/ross/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gix-worktree-0.56.0/src/stack/state/mod.rs /home/ross/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gix-worktree-0.56.0/src/stack/state/attributes.rs /home/ross/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gix-worktree-0.56.0/src/stack/state/ignore.rs
+
+/tmp/cargo-16693-corpus/debug/deps/libgix_worktree-0144fbdfcd035eb3.rmeta: /home/ross/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gix-worktree-0.56.0/src/lib.rs /home/ross/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gix-worktree-0.56.0/src/stack/mod.rs /home/ross/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gix-worktree-0.56.0/src/stack/delegate.rs /home/ross/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gix-worktree-0.56.0/src/stack/platform.rs /home/ross/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gix-worktree-0.56.0/src/stack/state/mod.rs /home/ross/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gix-worktree-0.56.0/src/stack/state/attributes.rs /home/ross/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gix-worktree-0.56.0/src/stack/state/ignore.rs
+
+/home/ross/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gix-worktree-0.56.0/src/lib.rs:
+/home/ross/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gix-worktree-0.56.0/src/stack/mod.rs:
+/home/ross/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gix-worktree-0.56.0/src/stack/delegate.rs:
+/home/ross/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gix-worktree-0.56.0/src/stack/platform.rs:
+/home/ross/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gix-worktree-0.56.0/src/stack/state/mod.rs:
+/home/ross/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gix-worktree-0.56.0/src/stack/state/attributes.rs:
+/home/ross/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gix-worktree-0.56.0/src/stack/state/ignore.rs:
