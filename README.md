@@ -1,5 +1,8 @@
 # Cargo dep-info collection benchmark
 
+> [!WARNING]
+> This repo is AI generated. You may want to shield your eyes
+
 Benchmarks for [rust-lang/cargo#16693](https://github.com/rust-lang/cargo/issues/16693), comparing BTreeMap, sorted IndexMap, and HashMap with sort-on-write against an unsorted HashMap baseline.
 
 The workspace includes 316 real rustc dep-info files and the extracted Cargo parser and binary encoder. A Cargo source checkout is not required for the default benchmarks.
