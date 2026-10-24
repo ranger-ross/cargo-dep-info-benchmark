@@ -55,6 +55,8 @@ Every run checks semantic equivalence across all variants and byte equivalence a
 
 ## Captured inputs and results
 
+See [RESULTS.md](RESULTS.md) for measured timings, interpretation, and reproducibility findings.
+
 `provenance.json` records the upstream revision, source checksums, extraction adaptations, and SHA-256 hashes of every fixture. The captured files contain the original machine's absolute paths. Those strings, including `capture-root.txt`, are intentionally preserved as benchmark data: rewriting them changes path comparisons and hashing. They are not local filesystem requirements for the default benchmarks.
 
 `results/original/` contains the original Criterion estimates and samples, interleaved CSV, environment metadata, and eight-clean-build reproduction results. These measurements predate the standalone packaging. Packaging removed the local cargo-util dependency, made filesystem cases opt-in, and moved generated output under `results/local/`. The fixture bytes were not changed. The original filesystem cases used the capturing machine's checkout and are not portable timing baselines.
